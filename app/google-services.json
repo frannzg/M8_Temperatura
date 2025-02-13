@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647754210703",
+    "project_id": "temperatura-c3250",
+    "storage_bucket": "temperatura-c3250.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647754210703:android:b556f9d140d08c47defffa",
+        "android_client_info": {
+          "package_name": "com.frannzg.temperatura"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1dDAXmBJU1bAz-pLYjzvkE8sC14fFOcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
