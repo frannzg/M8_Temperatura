@@ -1,6 +1,7 @@
 package com.frannzg.temperatura;
 
 public class Temperatura {
+    private String key;
     private String cel;
     private String data;
     private int humitat;
@@ -46,6 +47,14 @@ public class Temperatura {
 
     public void setTemperatura(double temperatura) {
         this.temperatura = temperatura;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 
     @Override
