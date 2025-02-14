@@ -1,10 +1,12 @@
 package com.frannzg.temperatura.ui.home;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -56,8 +58,17 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
 
             // Write a message to the database
             FirebaseDatabase database = FirebaseDatabase.getInstance();
-            DatabaseReference myRef = database.getReference("temperatura");
-            myRef.setValue(temperatura);
+            DatabaseReference myRef = database.getReference("temperatures");
+
+            //myRef.setValue(temperatura);
+
+            //myRef.child('temperatures').push().setValue(temperatura);
+
+            for(int i = 1; i < 20; i++){
+               myRef.push().setValue(temperatura);
+
+
+            }
         }
 }
 }
