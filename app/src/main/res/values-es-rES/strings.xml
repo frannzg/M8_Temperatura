@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperatura</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Tablero</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="cel">Cielo</string>
+    <string name="data">Datos</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="cel1">Cielo</string>
+    <string name="data1">Datos</string>
+    <string name="humitat1">Humedad</string>
+    <string name="temperatura1">Temperatura</string>
+    <string name="suma">+</string>
+    <string name="restar">-</string>
+    <string name="humitat">Humedad</string>
+    <string name="save">Guardar</string>
+</resources>

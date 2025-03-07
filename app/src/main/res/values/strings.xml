@@ -1,6 +1,17 @@
 <resources>
-    <string name="app_name">Temperatura</string>
+    <string name="app_name">Temperature</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="cel">Sky</string>
+    <string name="data">Data</string>
+    <string name="temperatura">Temperature</string>
+    <string name="cel1">Sky</string>
+    <string name="data1">Data</string>
+    <string name="humitat1">Humidity</string>
+    <string name="temperatura1">Temperature</string>
+    <string name="suma">+</string>
+    <string name="restar">-</string>
+    <string name="humitat">Humidity</string>
+    <string name="save">Save</string>
 </resources>

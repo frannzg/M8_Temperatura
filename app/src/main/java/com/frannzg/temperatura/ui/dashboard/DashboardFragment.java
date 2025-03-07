@@ -53,6 +53,7 @@ public class DashboardFragment extends Fragment {
 
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                temperatures.clear();
                 for (DataSnapshot dataSnapshot: snapshot.getChildren()){
                     Temperatura temperatura = dataSnapshot.getValue(Temperatura.class);
                     temperatura.setKey(dataSnapshot.getKey());
